@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Alexandre Cirilo]]></title>
+        <description><![CDATA[Alexandre Cirilo]]></description>
+        <link>https://alxdrcirilo.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 08 Jan 2024 21:12:15 GMT</lastBuildDate>
+        <atom:link href="https://alxdrcirilo.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Advent of Code 2023 🎄]]></title>
+            <description><![CDATA[Experiencing the Advent of Code challenges for the first time]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/aoc_2023</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/aoc_2023</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[problem-solving]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[challenge]]></category>
+            <pubDate>Sun, 31 Dec 2023 23:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/advent-of-code</repo>
+        </item>
+    </channel>
+</rss>
