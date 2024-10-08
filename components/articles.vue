@@ -6,8 +6,11 @@
         <div v-for="article in list" :key="article._path">
           <!-- Article -->
           <section class="article-section">
-            <NuxtLink :to="`${article._path}`" class="article-title">{{ article.title }}</NuxtLink>
-            <p class="readtime-p"><i class="fa-solid fa-clock"/>{{ article.readtime }} min</p>
+            <div style="display: flex; justify-content: space-between;">
+              <NuxtLink :to="`${article._path}`" class="article-title">{{ article.title }}</NuxtLink>
+              <p class="readtime-p" style="white-space: nowrap;"><i class="fa-solid fa-clock" />{{ article.readtime }}
+                min</p>
+            </div>
             <ul class="article-details">
               <li>{{ article.description }}</li>
               <li>
@@ -69,18 +72,22 @@ export default {
 .article-section {
   padding-left: 2%;
 }
+
 .article-title {
   font-weight: bold;
   font-size: 120%;
 }
+
 .article-title:hover {
   opacity: 0.5;
 }
+
 .article-details {
   padding-left: 2%;
   padding-top: 1%;
   font-size: 11px;
 }
+
 .readtime-p {
   display: flex;
   font-weight: bold;
@@ -89,6 +96,7 @@ export default {
   margin-bottom: 4px;
   align-items: center;
 }
+
 .fa-clock {
   margin-right: 6px;
 }
