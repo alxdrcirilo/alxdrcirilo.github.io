@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "devDependencies": {
+    "@nuxt/content": "^2.10.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "nuxt": "^3.8.2",
+    "push-dir": "^0.4.1",
+    "rss": "^1.2.2",
+    "vue": "^3.3.12"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .nuxt .output dist node_modules",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate && touch dist/.nojekyll",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/mdc": "^0.8.2"
+  }
+}
