@@ -6,7 +6,7 @@
         <div class="three columns" align="center">
           <header>
             <!-- Avatar -->
-            <NuxtImg id="avatar" name="avatar" alt="Hi, that's me!" src="avatar.png" />
+            <NuxtImg id="avatar" name="avatar" alt="Hi, that's me!" src="avatar.png" format="webp" />
             <!-- Metadata -->
             <p id="name">{{ author }}</p>
             <p id="bio">{{ bio }}</p>

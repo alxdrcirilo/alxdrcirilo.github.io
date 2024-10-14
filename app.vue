@@ -8,9 +8,12 @@
 
 <script setup>
 useHead({
-  htmlAttrs: {
-    lang: "en",
-    description: "Alexandre Cirilo's personal blog",
-  },
+  title: "Alexandre Cirilo - Blog",
+  meta: [
+    {
+      name: "description",
+      content: "Alexandre Cirilo - Blog"
+    }
+  ],
 })
 </script>
