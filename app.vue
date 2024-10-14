@@ -12,8 +12,12 @@ useHead({
   meta: [
     {
       name: "description",
-      content: "Alexandre Cirilo - Blog"
-    }
+      content: "Alexandre Cirilo - Blog",
+    },
+    {
+      name: "lang",
+      content: "en",
+    },
   ],
 })
 </script>
