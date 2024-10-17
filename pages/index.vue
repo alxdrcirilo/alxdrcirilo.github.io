@@ -8,11 +8,8 @@
   </p>
   <p>
     I plan to use this space to make occasional posts about the development of
-    personal projects, interests, and random things that strike my interest.
-  </p>
-  <p>
-    You can find me around the interwebz with
-    <code class="chip" style="border: 1px solid #768a54; cursor: default;">@alxdrcirilo</code>.
+    personal projects, interests, <NuxtLink to="https://alxdrcirilo.dev/games">video game reviews</NuxtLink>, and random things that strike my
+    interest.
   </p>
   <br>
   <div>
@@ -55,15 +52,15 @@ li {
   margin: 0
 }
 
-li > a,
-.dark-mode li > a {
+li>a,
+.dark-mode li>a {
   color: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
 
-li > a:hover,
-.dark-mode li > a:hover {
+li>a:hover,
+.dark-mode li>a:hover {
   text-decoration: underline;
 }
 </style>
