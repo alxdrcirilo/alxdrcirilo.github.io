@@ -1,0 +1,1 @@
+import{_ as o}from"./DlAUqK2U.js";import{o as r,c as t,g as s}from"./B5gd1AQ7.js";const c={},n={class:"mb-6 p-4 bg-olive rounded-xl"};function a(e,d){return r(),t("div",n,[s(e.$slots,"default",{},void 0,!0)])}const f=o(c,[["render",a],["__scopeId","data-v-7024bb41"]]);export{f as default};
