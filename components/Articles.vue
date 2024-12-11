@@ -68,8 +68,9 @@ h1 {
 }
 
 h1 sup {
-  font-size: 1rem;
+  font-size: 1.1rem;
   opacity: 0.8;
+  top: -8px;
 }
 
 .article-list {
