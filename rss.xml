@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Alexandre Cirilo]]></title>
+        <description><![CDATA[Alexandre Cirilo]]></description>
+        <link>https://alxdrcirilo.github.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 19 Dec 2024 16:22:03 GMT</lastBuildDate>
+        <atom:link href="https://alxdrcirilo.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Sudoku in 3 languages]]></title>
+            <description><![CDATA[Recreating the classic game of Sudoku in JavaScript, Python, and Rust.]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/sudoku</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/sudoku</guid>
+            <category><![CDATA[javascript]]></category>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[rust]]></category>
+            <category><![CDATA[gamedev]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[game]]></category>
+            <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/sudoku-javascript</repo>
+        </item>
+        <item>
+            <title><![CDATA[Spinning a spiderweb 🕸️]]></title>
+            <description><![CDATA[BooOooOo 👻]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/spiderweb</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/spiderweb</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[rust]]></category>
+            <category><![CDATA[data visualisation]]></category>
+            <category><![CDATA[themed]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[script]]></category>
+            <pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/spiderweb</repo>
+        </item>
+        <item>
+            <title><![CDATA[Curating my played videogames]]></title>
+            <description><![CDATA[A collection of the games I have played and reviewed with metadata fetched using the IGDB API]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/games</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/games</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[gaming]]></category>
+            <category><![CDATA[script]]></category>
+            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+            <repo></repo>
+        </item>
+        <item>
+            <title><![CDATA[Consolidating my movie watchlist]]></title>
+            <description><![CDATA[Using the Open Movie Database (OMDb) API to fetch metadata from the movies I have seen]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/movies</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/movies</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[cinema]]></category>
+            <category><![CDATA[script]]></category>
+            <pubDate>Sat, 31 Aug 2024 00:00:00 GMT</pubDate>
+            <repo></repo>
+        </item>
+        <item>
+            <title><![CDATA[Apple Health Parser]]></title>
+            <description><![CDATA[Publishing a Python package to extract, process, and analyse Apple HealthKit data]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/apple_health_parser</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/apple_health_parser</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[open source]]></category>
+            <category><![CDATA[data science]]></category>
+            <category><![CDATA[data visualisation]]></category>
+            <category><![CDATA[package]]></category>
+            <category><![CDATA[tool]]></category>
+            <pubDate>Tue, 02 Jul 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/apple-health-parser</repo>
+        </item>
+        <item>
+            <title><![CDATA[Building a platformer game]]></title>
+            <description><![CDATA[Creating a simple platformer game using Kaboom.js]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/ninjump</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/ninjump</guid>
+            <category><![CDATA[javascript]]></category>
+            <category><![CDATA[gamedev]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[game]]></category>
+            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/ninjump</repo>
+        </item>
+        <item>
+            <title><![CDATA[Ramachandran plotting tool]]></title>
+            <description><![CDATA[Releasing the stable production version of the ramachandraw Python package]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/ramachandraw</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/ramachandraw</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[bioinformatics]]></category>
+            <category><![CDATA[open source]]></category>
+            <category><![CDATA[package]]></category>
+            <category><![CDATA[tool]]></category>
+            <pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/ramachandraw</repo>
+        </item>
+        <item>
+            <title><![CDATA[Modding the Game Boy Advance SP 👾]]></title>
+            <description><![CDATA[Giving my 20 year old GBA SP console a second life]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/gba_sp</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/gba_sp</guid>
+            <category><![CDATA[retro]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[dyi]]></category>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <repo></repo>
+        </item>
+        <item>
+            <title><![CDATA[Advent of Code 2023 🎄]]></title>
+            <description><![CDATA[Experiencing the Advent of Code challenges for the first time]]></description>
+            <link>https://alxdrcirilo.github.io/blog/2024/aoc_2023</link>
+            <guid isPermaLink="true">https://alxdrcirilo.github.io/blog/2024/aoc_2023</guid>
+            <category><![CDATA[python]]></category>
+            <category><![CDATA[problem-solving]]></category>
+            <category><![CDATA[fun]]></category>
+            <category><![CDATA[challenge]]></category>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <repo>https://github.com/alxdrcirilo/advent-of-code</repo>
+        </item>
+    </channel>
+</rss>
