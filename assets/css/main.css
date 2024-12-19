@@ -325,7 +325,7 @@ h6>a {
 
 p {
   font-size: 1.2rem;
-  margin-top: 0;
+  margin-bottom: 2.5rem;
 }
 
 /* Links
@@ -769,9 +769,9 @@ sup>a {
   font-size: 0.9rem;
 }
 
-/* Invert SVG color when in dark mode */
+/* Invert black to white and vice-versa when in dark mode */
 .dark-mode .svg {
-  filter: invert(1);
+  filter: invert(100%) hue-rotate(180deg);
 }
 
 /* Images */
