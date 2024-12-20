@@ -38,5 +38,6 @@ export default {
   border-radius: 4px;
   font-size: 80%;
   padding: 4px;
+  text-wrap: nowrap;
 }
 </style>
