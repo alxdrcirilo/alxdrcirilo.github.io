@@ -8,6 +8,13 @@ export default defineNuxtConfig({
       link: [
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' },
       ],
+      script: [
+        {
+          src: '//gc.zgo.at/count.js',
+          async: true,
+          'data-goatcounter': 'https://alxdrcirilo.goatcounter.com/count'
+        }
+      ]
     },
   },
   compatibilityDate: '2024-09-18',
