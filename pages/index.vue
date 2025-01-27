@@ -16,7 +16,7 @@
     Recent posts:
     <ContentList
       v-slot="{ list }"
-      :path="`/blog/${year}`"
+      path="/blog"
       :query="{ sort: [{ date: -1 }], limit: 5 }"
     >
       <ul
@@ -35,16 +35,6 @@
     </ContentList>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      year: 2024,
-    }
-  },
-}
-</script>
 
 <style scoped>
 ul {

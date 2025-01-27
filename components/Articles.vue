@@ -42,7 +42,7 @@
 export default {
   data() {
     return {
-      years: [2024],
+      years: [2025, 2024],
       param: null,
       tag: null,
       query: {
