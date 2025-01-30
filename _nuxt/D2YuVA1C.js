@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as t,a as o,h as c}from"./D5CLry9r.js";const r={},n={class:"table-container"};function l(e,_){return s(),t("div",n,[o("table",null,[c(e.$slots,"default")])])}const f=a(r,[["render",l]]);export{f as default};
