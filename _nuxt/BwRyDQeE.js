@@ -1,0 +1,1 @@
+import{_ as e}from"./CAVV-MWY.js";import{_ as r,c as n,a as s,b as c,o as a}from"./DjDrsVzk.js";import"./B411nte_.js";import"./DEWT6d7O.js";import"./CUR6GbHI.js";import"./4wLzsB37.js";const p={};function _(i,o,m,l,d,f){const t=e;return a(),n("div",null,[o[0]||(o[0]=s("h1",null,"📔 Archive",-1)),c(t)])}const k=r(p,[["render",_]]);export{k as default};
