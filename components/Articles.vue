@@ -4,36 +4,38 @@
     :key="year"
   >
     <ContentList
-      v-slot="{ list: articles }"
       :path="`/blog/${year}`"
       :query="query"
     >
-      <h1>
-        {{ year }}<sup>({{ articles.length }})</sup>
-      </h1>
-      <ul class="article-list">
-        <li
-          v-for="article in articles"
-          :key="article._path"
-        >
-          <div class="article-section">
-            <NuxtLink
-              :to="`${article._path}`"
-              class="article-title"
-            >
-              {{ article.title }}
-            </NuxtLink>
-            <div class="article-readtime-date">
-              <div class="article-readtime">
-                {{ article.readtime }} <i class="fas fa-clock" />
-              </div>
-              <div class="article-date">
-                {{ article.date }}
+      <template #default="{ list: articles }">
+        <h1>
+          {{ year }}<sup>({{ articles.length }})</sup>
+        </h1>
+        <ul class="article-list">
+          <li
+            v-for="article in articles"
+            :key="article._path"
+          >
+            <div class="article-section">
+              <NuxtLink
+                :to="`${article._path}`"
+                class="article-title"
+              >
+                {{ article.title }}
+              </NuxtLink>
+              <div class="article-readtime-date">
+                <div class="article-readtime">
+                  {{ article.readtime }} <i class="fas fa-clock" />
+                </div>
+                <div class="article-date">
+                  {{ article.date }}
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </template>
+      <template #not-found></template>
     </ContentList>
   </div>
 </template>
