@@ -12,7 +12,7 @@ tags: {
 
 ## Preface
 
-In my [previous post](6.movies.md), I discussed consolidating my movie watchlist. In this article, I will explain how I am compiling a list of the video games I have played to date.
+In my [previous post](06-movies.md), I discussed consolidating my movie watchlist. In this article, I will explain how I am compiling a list of the video games I have played to date.
 
 I've always had a computer in my bedroom, ever since I can remember. In the early days of my childhood, I spent countless hours engaging with the imaginary hidden behind each and every pixel of my bulky CRT monitor. I catalogued a great many titles of old that are now relics of a time past, a time that I now look back at with tenderness and nostalgia.
 

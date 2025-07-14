@@ -116,7 +116,8 @@
           <!-- Footer -->
           <footer>
             <hr style="margin-bottom: 20px;">
-            © 2024 Alexandre Cirilo. Powered by <a href="https://nuxt.com/"><strong>Nuxt</strong></a>.
+            © 2024 - {{ new Date().getFullYear() }} {{ author }}.
+            Powered by <a href="https://nuxt.com" target="_blank" style="font-weight: bold;">Nuxt</a>.
           </footer>
         </div>
       </div>
@@ -182,5 +183,9 @@ export default {
 .chip:hover {
   opacity: 0.7;
   transition: opacity 0.2s;
+}
+
+footer {
+  margin-bottom: 20px;
 }
 </style>
