@@ -50,9 +50,9 @@ Once I disassembled the outer shell, the mainboard was exposed and I quickly not
 
 <div>
   <figure class="figure">
-    <img alt="OEM shell top" src="/images/2024/2.gba_sp/original_front.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="OEM mainboard" src="/images/2024/2.gba_sp/original_board.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="OEM shell bottom" src="/images/2024/2.gba_sp/original_back.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="OEM shell top" src="images/2024/2-gba_sp/original_front.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="OEM mainboard" src="images/2024/2-gba_sp/original_board.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="OEM shell bottom" src="images/2024/2-gba_sp/original_back.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Top view of the shell, mainboard, and bottom view of the original shell.</p>
 </div>
@@ -63,9 +63,9 @@ Once everything is properly disassembled and cleaned up, we essentially just nee
 
 <div>
   <figure class="figure">
-    <img alt="Third-party shell top" src="/images/2024/2.gba_sp/modded_front.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="OEM mainboard" src="/images/2024/2.gba_sp/modded_board.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="Third-party shell bottom" src="/images/2024/2.gba_sp/modded_back.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="Third-party shell top" src="images/2024/2-gba_sp/modded_front.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="OEM mainboard" src="images/2024/2-gba_sp/modded_board.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="Third-party shell bottom" src="images/2024/2-gba_sp/modded_back.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Top view of the shell, mainboard, and bottom view of the modded shell.</p>
 </div>
@@ -86,9 +86,9 @@ In total, I spent a little over 100€ to go on a nostalgia trip and make my chi
 
 <div>
   <figure class="figure">
-    <img alt="Third-party IPS screen" src="/images/2024/2.gba_sp/modded_screen.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="Third-party shell inside bottom" src="/images/2024/2.gba_sp/modded_inside_bottom.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="Third-party shell inside top" src="/images/2024/2.gba_sp/modded_inside_top.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="Third-party IPS screen" src="images/2024/2-gba_sp/modded_screen.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="Third-party shell inside bottom" src="images/2024/2-gba_sp/modded_inside_bottom.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="Third-party shell inside top" src="images/2024/2-gba_sp/modded_inside_top.png" class="figure-image" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">New screen fixed in the top display housing, replaced <code>L</code> and <code>R</code> buttons, new buttons, button pads, and OEM speaker.</p>
 </div>
@@ -99,7 +99,7 @@ I am quite happy with how this project turned out, the console looks completely 
 
 <div>
   <figure class="figure">
-    <img alt="Modded GBA SP" src="/images/2024/2.gba_sp/modded.png" class="figure-image" style="max-width: 200px;">
+    <img alt="Modded GBA SP" src="images/2024/2-gba_sp/modded.png" class="figure-image" style="max-width: 200px;">
   </figure>
   <p class="figure-caption">End result of refurbishing my GBA SP.</p>
 </div>

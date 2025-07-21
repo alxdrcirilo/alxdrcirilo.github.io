@@ -93,7 +93,7 @@ Here's what the content of the JSON file for the "*In the Mood for Love*" movie 
    "Language":"Cantonese, Shanghainese, French, Spanish",
    "Country":"Hong Kong, France",
    "Awards":"Nominated for 1 BAFTA Award44 wins & 50 nominations total",
-   "Poster":"https://m.media-amazon.com/images/M/MV5BYWVjNjMwZTgtMGYyYy00NmVhLWE1NDItMzFhMmJkYTNjYWIwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+   "Poster":"https://m.media-amazon.comimages/M/MV5BYWVjNjMwZTgtMGYyYy00NmVhLWE1NDItMzFhMmJkYTNjYWIwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
    "Ratings":[
       {
          "Source":"Internet Movie Database",

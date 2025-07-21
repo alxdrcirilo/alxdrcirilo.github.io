@@ -22,7 +22,7 @@ Personally, I enjoy cycling quite a bit. Not only because it's great for overall
 
 As you would expect, the Netherlands has excellent cycling infrastructure with approximately 153,000km[^1] of cycle paths. So it's not difficult to imagine that you can pretty much get anywhere by bike in this country. I didn't have a very strict plan or route in mind, my sole goal was to bike a considerable distance and see the flower fields. Below you can find the whole trip with markers at every 10km.
 
-![route](images/2025/12.cycling/route.png)
+![route](images/2025/12-cycling/route.png)
 <p class="figure-caption">Cycling route (May 9, 2024).</p>
 
 ### Statistics
@@ -46,7 +46,7 @@ My median speed was 18.2 km/h. For me, that was a maintainable speed for this ty
 
 <div>
   <figure class="figure">
-    <img alt="Speed plot" src="/images/2025/12.cycling/speed.svg" class="figure-image svg">
+    <img alt="Speed plot" src="images/2025/12-cycling/speed.svg" class="figure-image svg">
   </figure>
   <p class="figure-caption">Speed plot.</p>
 </div>
@@ -61,7 +61,7 @@ In terms of elevation, the ride was relatively flat, as expected in the Netherla
 
 <div>
   <figure class="figure">
-    <img alt="Elevation plot" src="/images/2025/12.cycling/elevation.svg" class="figure-image svg">
+    <img alt="Elevation plot" src="images/2025/12-cycling/elevation.svg" class="figure-image svg">
   </figure>
   <p class="figure-caption">Elevation plot.</p>
 </div>
@@ -72,7 +72,7 @@ Lastly, let's take a look at the cumulative distance. It's interesting to see th
 
 <div>
   <figure class="figure">
-    <img alt="Distance plot" src="/images/2025/12.cycling/distance.svg" class="figure-image svg">
+    <img alt="Distance plot" src="images/2025/12-cycling/distance.svg" class="figure-image svg">
   </figure>
   <p class="figure-caption">Distance plot.</p>
 </div>
@@ -83,5 +83,5 @@ This was a great experience that I would highly recommend to anyone who enjoys c
 
 I'm planning to do another cycling trip this year once the weather clears up a bit, this time around I'm aiming for 100km! 🚴‍♂️
 
-![trip](images/2025/12.cycling/trip.png)
+![trip](images/2025/12-cycling/trip.png)
 <p class="figure-caption">A few shots from my trip.</p>

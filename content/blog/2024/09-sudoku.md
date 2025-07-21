@@ -45,7 +45,7 @@ The allowed digits for this cell are thus: `[2, 4, 5, 7, 8]`. We can then random
 
 <div>
   <figure class="figure">
-    <img alt="Sudoku example" src="/images/2024/9.sudoku/example.svg" class="figure-image svg" style="max-height: 600px; width: auto;">
+    <img alt="Sudoku example" src="images/2024/9-sudoku/example.svg" class="figure-image svg" style="max-height: 600px; width: auto;">
   </figure>
   <p class="figure-caption">How to fill a cell in a Sudoku board.</p>
 </div>
@@ -139,8 +139,8 @@ For the nerds among us, here are the game libraries I used for each implementati
 
 <div>
   <figure class="figure">
-    <img alt="Sudoku (Python)" src="/images/2024/9.sudoku/sudoku_python.png" class="figure-image" style="max-width: calc(100% / 2); padding: 0 6px; object-fit: contain;">
-    <img alt="Sudoku (Rust)" src="/images/2024/9.sudoku/sudoku_rust.png" class="figure-image" style="max-width: calc(100% / 2); padding: 0 6px; object-fit: contain;">
+    <img alt="Sudoku (Python)" src="images/2024/9-sudoku/sudoku_python.png" class="figure-image" style="max-width: calc(100% / 2); padding: 0 6px; object-fit: contain;">
+    <img alt="Sudoku (Rust)" src="images/2024/9-sudoku/sudoku_rust.png" class="figure-image" style="max-width: calc(100% / 2); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Sudoku in <strong>Python</strong> and <strong>Rust</strong>, from left to right.</p>
 </div>

@@ -24,7 +24,7 @@ I've been a happy owner of an Apple Watch for about 4 years now. I must say that
 
 Here are some of the plots that *Apple Health Parser* can generate:
 
-![header](/images/2024/5.apple_health_parser/apple_health_parser.png)
+![header](images/2024/5-apple_health_parser/apple_health_parser.png)
 <p class="figure-caption">Some plots generated with <em>Apple Health Parser</em>.</p>
 
 ### Motivation

@@ -25,7 +25,7 @@ Proteins are made up of aminoacid residues linked together in what we call a "po
 
 <div>
   <figure class="figure">
-    <img alt="Torsion angles" src="/images/2024/3.ramachandraw/torsion.svg" class="figure-image svg" style="max-height: 300px; width: auto;">
+    <img alt="Torsion angles" src="images/2024/3-ramachandraw/torsion.svg" class="figure-image svg" style="max-height: 300px; width: auto;">
   </figure>
   <p class="figure-caption">Phi (φ) and Psi (ψ) torsion angles. Source: <a style="font-size: inherit;" href="https://en.wikipedia.org/wiki/Ramachandran_plot#/media/File:Protein_backbone_PhiPsiOmega_drawing.svg">Wikipedia</a>.</p>
 </div>
@@ -206,8 +206,8 @@ The `ramachandraw` Python pacakge supports plotting single PDB files or batches 
 
 <div>
   <figure class="figure">
-    <img alt="Single PDB" src="/images/2024/3.ramachandraw/single.png" class="figure-image" style="border: 1px solid lightgray; border-radius: 4px; margin: 0 6px; max-width: 50%; object-fit: contain;">
-    <img alt="Batch of PDBs" src="/images/2024/3.ramachandraw/batch.png" class="figure-image" style="border: 1px solid lightgray; border-radius: 4px; margin: 0 6px; max-width: 50%; object-fit: contain;">
+    <img alt="Single PDB" src="images/2024/3-ramachandraw/single.png" class="figure-image" style="border: 1px solid lightgray; border-radius: 4px; margin: 0 6px; max-width: 50%; object-fit: contain;">
+    <img alt="Batch of PDBs" src="images/2024/3-ramachandraw/batch.png" class="figure-image" style="border: 1px solid lightgray; border-radius: 4px; margin: 0 6px; max-width: 50%; object-fit: contain;">
   </figure>
   <p class="figure-caption">
   Ramachandran plot for one PDB and for a batch of PDBs, from left to right.</p>

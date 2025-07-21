@@ -6,7 +6,13 @@ export default defineNuxtConfig({
         lang: 'en',
       },
       link: [
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' },
+        { 
+          rel: 'stylesheet', 
+          href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css',
+          integrity: 'sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==',
+          crossorigin: 'anonymous',
+          referrerpolicy: 'no-referrer'
+        },
       ],
       script: [
         {
@@ -18,16 +24,21 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: '2024-09-18',
-  css: [
-    '~/assets/css/main.css',
+  css: ['~/assets/css/main.css'],
+  
+  modules: [
+    '@nuxtjs/color-mode',
+    '@nuxt/content',
+    '@nuxt/image'
   ],
+  
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/color-mode', '@nuxt/content', '@nuxt/image'],
+  
   colorMode: {
     preference: 'dark',
     fallback: 'dark',
@@ -46,10 +57,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+  
   content: {
     highlight: {
       theme: {
-        'default': 'vitesse-light',
+        default: 'vitesse-light',
         'dark-mode': 'dark-plus',
       },
     },
@@ -61,11 +73,10 @@ export default defineNuxtConfig({
       },
     },
   },
+  
   nitro: {
     prerender: {
-      routes: [
-        '/rss.xml',
-      ],
+      routes: ['/rss.xml'],
     },
   },
 })

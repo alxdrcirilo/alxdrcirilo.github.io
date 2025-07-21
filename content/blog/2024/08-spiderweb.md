@@ -25,7 +25,7 @@ I came up with a small illustration of a spiderweb which I'm going to use as tem
 
 <div>
   <figure class="figure">
-    <img alt="..." src="/images/2024/8.spiderweb/sketch.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
+    <img alt="..." src="images/2024/8-spiderweb/sketch.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
   </figure>
   <p class="figure-caption">Sketch of a spiderweb.</p>
 </div>
@@ -138,7 +138,7 @@ And now, a quick trip back to high school. Remember how to determine the positio
 
 <div>
   <figure class="figure">
-    <img alt="Polar coordinates" src="/images/2024/8.spiderweb/polar_coordinates.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
+    <img alt="Polar coordinates" src="images/2024/8-spiderweb/polar_coordinates.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
   </figure>
   <p class="figure-caption">Determining polar coordinates on a circle.</p>
 </div>
@@ -189,7 +189,7 @@ Eeach line is a strand in the spiderweb, represented by a list of coordinates. T
 
 <div>
   <figure class="figure">
-    <img alt="Spiderweb" src="/images/2024/8.spiderweb/spiderweb.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
+    <img alt="Spiderweb" src="images/2024/8-spiderweb/spiderweb.svg" class="figure-image svg" style="max-height: 260px; width: auto;">
   </figure>
   <p class="figure-caption">Spiderweb generated using <i>Rust</i> and <i>Python</i>.</p>
 </div>
@@ -202,9 +202,9 @@ Here's what tweaking the number of **strands** looks like:
 
 <div>
   <figure class="figure">
-    <img alt="spiderweb depth=16 edges=6" src="/images/2024/8.spiderweb/spiderweb_d16-e6.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="spiderweb depth=16 edges=12" src="/images/2024/8.spiderweb/spiderweb_d16-e12.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="spiderweb depth=16 edges=18" src="/images/2024/8.spiderweb/spiderweb_d16-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=16 edges=6" src="images/2024/8-spiderweb/spiderweb_d16-e6.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=16 edges=12" src="images/2024/8-spiderweb/spiderweb_d16-e12.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=16 edges=18" src="images/2024/8-spiderweb/spiderweb_d16-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Spiderwebs generated with <strong>DEPTH=16</strong> and <strong>EDGES=[6, 12, 18]</strong>, from left to right.</p>
 </div>
@@ -213,9 +213,9 @@ And here's what modifying the number of **rings** looks like:
 
 <div>
   <figure class="figure">
-    <img alt="spiderweb depth=8 edges=18" src="/images/2024/8.spiderweb/spiderweb_d8-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="spiderweb depth=16 edges=18" src="/images/2024/8.spiderweb/spiderweb_d16-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
-    <img alt="spiderweb depth=32 edges=18" src="/images/2024/8.spiderweb/spiderweb_d32-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=8 edges=18" src="images/2024/8-spiderweb/spiderweb_d8-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=16 edges=18" src="images/2024/8-spiderweb/spiderweb_d16-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
+    <img alt="spiderweb depth=32 edges=18" src="images/2024/8-spiderweb/spiderweb_d32-e18.svg" class="figure-image svg" style="max-width: calc(100% / 3); padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Spiderwebs generated with <strong>DEPTH=[8, 16, 32]</strong> and <strong>EDGES=18</strong>, from left to right.</p>
 </div>

@@ -46,7 +46,7 @@ The game is set at a resolution of 512x320 pixels. With the **Kaboom.js** librar
 
 Designing the welcome screen was easier than I anticipated, all it took was designing a small level (i.e. just the background scene), fixing the position of the player, adding some text for the user to know what to do (in this case, pressing `SPACE` to start the game, or pressing `R` to show the scoring matrix), and lastly, adding a logo! It's worth saying that the logo was generated using AI.
 
-![ninjump](images/2024/4.ninjump/ninjump.png)
+![ninjump](images/2024/4-ninjump/ninjump.png)
 <p class="figure-caption"><strong>NinJump</strong> - Welcome screen.</p>
 
 ### Project structure

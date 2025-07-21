@@ -30,7 +30,7 @@ In a nutshell, we will try to emulate the feel and look of the *Access Tuner* it
 
 Both libraries are well-established in the Python gamedev and array processing landscapes.
 
-![access_tuner](images/2025/11.alien/access_tuner.webp)
+![access_tuner](images/2025/11-alien/access_tuner.webp)
 <p class="figure-caption"><em>Access Tuner</em> in <strong>Alien Isolation</strong>.</p>
 
 ## Implementation
@@ -108,8 +108,8 @@ If this seems a bit intimidating at first, don't worry. There's a lot of "pygame
 
 <div>
   <figure class="figure">
-    <img alt="No bloom effect" src="/images/2025/11.alien/no_bloom.png" class="figure-image" style="max-width: 50%; padding: 0 6px; object-fit: contain;">
-    <img alt="Bloom effect" src="/images/2025/11.alien/bloom.png" class="figure-image" style="max-width: 50%; padding: 0 6px; object-fit: contain;">
+    <img alt="No bloom effect" src="images/2025/11-alien/no_bloom.png" class="figure-image" style="max-width: 50%; padding: 0 6px; object-fit: contain;">
+    <img alt="Bloom effect" src="images/2025/11-alien/bloom.png" class="figure-image" style="max-width: 50%; padding: 0 6px; object-fit: contain;">
   </figure>
   <p class="figure-caption">Before and after implementing the bloom effect (from left to right).</p>
 </div>
