@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "dependencies": {
+    "@nuxt/content": "^3.6.3",
+    "@nuxt/icon": "^1.15.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "better-sqlite3": "^12.2.0",
+    "feed": "^5.1.0",
+    "nuxt": "^4.0.3"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .data .nuxt .output dist node_modules",
+    "dev": "nuxt dev",
+    "format": "prettier --write .",
+    "generate": "nuxt generate && touch dist/.nojekyll"
+  },
+  "devDependencies": {
+    "@iconify-json/fa6-brands": "^1.2.6",
+    "@iconify-json/fa6-solid": "^1.2.4",
+    "prettier": "^3.6.2"
+  }
+}
