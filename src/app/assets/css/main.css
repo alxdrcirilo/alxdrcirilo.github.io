@@ -215,12 +215,16 @@ html {
   font-size: 62.5%;
 }
 
+@font-face {
+  font-family: "Lilex";
+  src: url("~/assets/fonts/Lilex-Regular.ttf") format("truetype");
+}
+
 body {
   padding: 2%;
   background-color: #fcf2ec;
   color: #222;
-  font-family:
-    "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Lilex";
   font-size: 1.2rem;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
@@ -299,8 +303,7 @@ h6 code {
 
 @media (min-width: 550px) {
   h1,
-  h1 a
-  h1 code {
+  h1 a h1 code {
     font-size: 2.4rem;
   }
 

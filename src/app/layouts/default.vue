@@ -258,6 +258,7 @@ sup > a {
 }
 
 .name {
+  font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
   font-size: medium;
   font-weight: bolder;
   text-align: center;

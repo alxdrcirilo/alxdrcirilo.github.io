@@ -32,12 +32,18 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () => {
   width: fit-content;
 }
 
+/* Hide footnote label */
+:deep(#footnote-label) {
+  display: none;
+}
+
+/* Add custom footnote label */
 :deep(.footnotes::before) {
   border-bottom: 1px dotted;
   content: "References";
   display: block;
   font-size: 1.1rem;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 :deep(.footnotes *) {

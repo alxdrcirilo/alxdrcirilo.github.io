@@ -30,10 +30,10 @@ export default defineNuxtConfig({
       markdown: {
         highlight: {
           theme: {
-            default: "one-light",
-            "dark-mode": "one-dark-pro",
+            default: "vitesse-light",
+            "dark-mode": "vitesse-dark",
           },
-          langs: ["js", "json", "makefile", "py", "rs", "shell", "toml", "xml"],
+          langs: ["js", "json", "makefile", "py", "rs", "sh", "toml", "xml"],
         },
       },
     },

@@ -1,13 +1,15 @@
 <template>
   <div class="pre-card">
-    <div v-if="props.filename" class="pre-card-header">
+    <div class="pre-card-header" v-if="props.filename">
       <Icon
         v-if="getLanguageIcon(props.language)"
         :name="getLanguageIcon(props.language)"
       />
       {{ props.filename }}
     </div>
-    <pre :class="props.class"><slot /></pre>
+    <div class="pre-card-content">
+      <pre :class="props.class"><slot /></pre>
+    </div>
   </div>
 </template>
 
@@ -49,7 +51,7 @@ const getLanguageIcon = (lang: string): string => {
   border-radius: 8px;
   background: #fffaf7;
   margin: 28px 0;
-  overflow: auto;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   transition:
     color 0.2s,
     background-color 0.2s;
@@ -64,14 +66,22 @@ const getLanguageIcon = (lang: string): string => {
   gap: 1rem;
   padding: 0.75rem 1rem;
   font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: bold;
+}
+
+.pre-card-content {
+    overflow-x: auto;
 }
 
 .pre-card pre {
   margin: 0;
   padding: 1.5rem;
   border-radius: 0;
+}
+
+.pre-card pre * {
+  font-size: 1.15rem;
 }
 
 .dark-mode .pre-card {
