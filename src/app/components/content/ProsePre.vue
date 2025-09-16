@@ -71,7 +71,7 @@ const getLanguageIcon = (lang: string): string => {
 }
 
 .pre-card-content {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .pre-card pre {
