@@ -19,6 +19,8 @@ In this blog post, I will discuss several Python concepts and quirks I've encoun
 - Native HTTP server
 - Task groups
 
+> 🗒️ **Note**: At the time of writing of this post, the latest major stable version was Python 3.13.
+
 ### `@classmethod` vs. `@staticmethod`
 
 If you've worked with more elaborate classes containing multiple methods performing different tasks, surely you've come accross class (`@classmethod`) and static (`@staticmethod`) methods by now. They are both methods of a class but serve different purposes.
