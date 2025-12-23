@@ -25,7 +25,7 @@
               <nav aria-label="Social media links">
                 <div class="socials">
                   <a
-                    href="https://github.com/alxdrcirilo"
+                    href="https://github.com/alxdrcirilo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub profile"
