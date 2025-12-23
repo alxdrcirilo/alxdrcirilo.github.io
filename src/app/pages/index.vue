@@ -4,7 +4,7 @@
     I'm a Software Engineer based in Amsterdam, the Netherlands. Welcome to my
     personal playground! This blog is my space to geek out about all things
     computer science, share my coding adventures, and showcase my personal
-    projects. 🚀
+    projects.
   </p>
   <p>
     I plan to use this space to make occasional posts about the development of

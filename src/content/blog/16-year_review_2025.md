@@ -15,7 +15,7 @@ Around the same time last year, I wrote up a yearly review, which coincidentally
 This year, I focused more on personal growth, and ended up having to sacrifice some of the free time I allocated to side projects. Nevertheless, here are some worth noting.
 
 1. Added a **Sleep Analysis** feature to the [Apple Health Parser](/blog/05-apple_health_parser) Python package 🛌
-2. Emulated a minigame from the _Alien Isolation_ videogame (see [this post](/blog/11-alien)) 👽
+2. Emulated a minigame from the **Alien Isolation** videogame (see [this post](/blog/11-alien)) 👽
 
 ### Milestones 🏁
 

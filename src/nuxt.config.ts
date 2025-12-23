@@ -42,7 +42,12 @@ export default defineNuxtConfig({
     mode: "css",
     cssLayer: "base",
     serverBundle: {
-      collections: ["fa"],
+      collections: ["fa6-brands", "fa6-solid"],
+    },
+  },
+  nitro: {
+    prerender: {
+      routes: ["/rss.xml"],
     },
   },
 });
