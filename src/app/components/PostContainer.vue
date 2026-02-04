@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="ts">
-const years = ref([2025, 2024]);
+const years = ref([2026, 2025, 2024]);
 
 defineProps<{
   posts: Array<{
