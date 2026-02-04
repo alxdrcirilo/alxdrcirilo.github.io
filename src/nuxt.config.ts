@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: false },
   compatibilityDate: "2025-08-06",
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", "katex/dist/katex.min.css"],
   modules: ["@nuxt/content", "@nuxt/icon", "@nuxt/image", "@nuxtjs/color-mode"],
   content: {
     build: {
@@ -34,6 +34,12 @@ export default defineNuxtConfig({
             "dark-mode": "vitesse-dark",
           },
           langs: ["js", "json", "makefile", "py", "rs", "sh", "toml", "xml"],
+        },
+        remarkPlugins: {
+          "remark-math": {},
+        },
+        rehypePlugins: {
+          "rehype-katex": {},
         },
       },
     },

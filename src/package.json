@@ -9,7 +9,9 @@
     "@nuxtjs/color-mode": "^3.5.2",
     "better-sqlite3": "^12.2.0",
     "feed": "^5.1.0",
-    "nuxt": "^4.0.3"
+    "nuxt": "^4.0.3",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "private": true,
   "scripts": {
