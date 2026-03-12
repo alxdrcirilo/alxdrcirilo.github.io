@@ -71,6 +71,8 @@ const getLanguageIcon = (lang: string): string => {
   font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
   font-size: 1.15rem;
   font-weight: bold;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .pre-card-content {
