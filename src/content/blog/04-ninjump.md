@@ -8,7 +8,7 @@ repo: https://github.com/alxdrcirilo/ninjump
 ---
 
 ::card
-📝 **TLDR**: I built a game, you can try it out [here](http://alxdrcirilo.dev/ninjump) 🕹️
+📝 **TL;DR**: I built a game, you can try it out [here](http://alxdrcirilo.dev/ninjump) 🕹️
 ::
 
 ## Preface

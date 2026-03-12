@@ -41,6 +41,7 @@ const getLanguageIcon = (lang: string): string => {
     shell: "fa6-solid:terminal",
     toml: "fa6-solid:file-lines",
     xml: "fa6-solid:file-code",
+    yaml: "fa6-solid:file-lines",
   };
   return iconMap[lang] || "";
 };
@@ -48,8 +49,8 @@ const getLanguageIcon = (lang: string): string => {
 
 <style scoped>
 .pre-card {
-  border-radius: 8px;
   background: #fffaf7;
+  border-radius: 8px;
   margin: 28px 0;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   transition:
@@ -60,7 +61,9 @@ const getLanguageIcon = (lang: string): string => {
 .pre-card-header {
   display: flex;
   align-items: center;
-  background: #f0eae4;
+  background: #e8e2dc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   border-bottom: 1px solid #d6d3ce;
   opacity: 0.9;
   gap: 1rem;

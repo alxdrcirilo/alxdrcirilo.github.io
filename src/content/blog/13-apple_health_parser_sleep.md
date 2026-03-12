@@ -156,7 +156,7 @@ With the addition of sleep analysis capabilities, the **Apple Health Parser** Py
 
 <div>
   <figure class="figure">
-    <img alt="Sleep plot" src="images/2025/13-sleep/sleep.svg" class="figure-image svg" style="max-width: 400px;">
+    <img alt="Sleep plot" src="images/2025/13-apple_health_parser_sleep/sleep.svg" class="figure-image svg" style="max-width: 400px;">
   </figure>
   <p class="figure-caption">Sleep plot.</p>
 </div>

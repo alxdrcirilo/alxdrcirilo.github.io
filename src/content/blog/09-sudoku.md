@@ -13,7 +13,7 @@ repo: https://github.com/alxdrcirilo/sudoku-javascript
 ---
 
 ::card
-📝 **TLDR**: I built a Sudoku game, you can try it out [here](http://alxdrcirilo.dev/sudoku-javascript) 🕹️
+📝 **TL;DR**: I built a Sudoku game, you can try it out [here](http://alxdrcirilo.dev/sudoku-javascript) 🕹️
 ::
 
 ## Preface

@@ -46,16 +46,16 @@ To pick the colours, you can use some online tools that convert images to cross-
 
 Here's a table listing all the colours and their respective DMC number used in this project:
 
-| DMC number | Colour name      | Hex code  | Sample                                   |
-|------------|------------------|-----------|------------------------------------------|
-| 310        | Black            | #000000   | <span style="display:inline-block;width:12px;height:12px;background:#000000;border:1px solid #ccc;"></span> |
-| 840        | Beige Brown Vy Dk| #6B4F2A   | <span style="display:inline-block;width:12px;height:12px;background:#6B4F2A;border:1px solid #ccc;"></span> |
-| 988        | Forest Green Md  | #3A6B35   | <span style="display:inline-block;width:12px;height:12px;background:#3A6B35;border:1px solid #ccc;"></span> |
-| 676        | Old Gold Lt      | #F8E6A0   | <span style="display:inline-block;width:12px;height:12px;background:#F8E6A0;border:1px solid #ccc;"></span> |
-| 677        | Old Gold Vy Lt   | #FAF3DC   | <span style="display:inline-block;width:12px;height:12px;background:#FAF3DC;border:1px solid #ccc;"></span> |
-| BLANC      | White            | #FFFFFF   | <span style="display:inline-block;width:12px;height:12px;background:#FFFFFF;border:1px solid #ccc;"></span> |
-| 826        | Blue Med         | #A4D3E6   | <span style="display:inline-block;width:12px;height:12px;background:#A4D3E6;border:1px solid #ccc;"></span> |
-| 825        | Blue Dk          | #567C99   | <span style="display:inline-block;width:12px;height:12px;background:#567C99;border:1px solid #ccc;"></span> |
+| DMC number | Colour name       | Hex code | Sample                                                                                                      |
+| ---------- | ----------------- | -------- | ----------------------------------------------------------------------------------------------------------- |
+| 310        | Black             | #000000  | <span style="display:inline-block;width:12px;height:12px;background:#000000;border:1px solid #ccc;"></span> |
+| 840        | Beige Brown Vy Dk | #6B4F2A  | <span style="display:inline-block;width:12px;height:12px;background:#6B4F2A;border:1px solid #ccc;"></span> |
+| 988        | Forest Green Md   | #3A6B35  | <span style="display:inline-block;width:12px;height:12px;background:#3A6B35;border:1px solid #ccc;"></span> |
+| 676        | Old Gold Lt       | #F8E6A0  | <span style="display:inline-block;width:12px;height:12px;background:#F8E6A0;border:1px solid #ccc;"></span> |
+| 677        | Old Gold Vy Lt    | #FAF3DC  | <span style="display:inline-block;width:12px;height:12px;background:#FAF3DC;border:1px solid #ccc;"></span> |
+| BLANC      | White             | #FFFFFF  | <span style="display:inline-block;width:12px;height:12px;background:#FFFFFF;border:1px solid #ccc;"></span> |
+| 826        | Blue Med          | #A4D3E6  | <span style="display:inline-block;width:12px;height:12px;background:#A4D3E6;border:1px solid #ccc;"></span> |
+| 825        | Blue Dk           | #567C99  | <span style="display:inline-block;width:12px;height:12px;background:#567C99;border:1px solid #ccc;"></span> |
 
 ### Gather your needles
 

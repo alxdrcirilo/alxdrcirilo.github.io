@@ -222,7 +222,7 @@ html {
 
 body {
   padding: 2%;
-  background-color: #fcf2ec;
+  background-color: #f3ede9;
   color: #222;
   font-family: "Lilex";
   font-size: 1.2rem;
@@ -552,12 +552,12 @@ li {
 /* Code
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: bold;
 }
 
 p > code {
-  background-color: rgba(110, 139, 61, 0.25);
+  background-color: rgba(110, 139, 61, 0.15);
 }
 
 /* Tables
