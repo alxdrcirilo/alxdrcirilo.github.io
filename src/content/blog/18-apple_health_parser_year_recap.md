@@ -22,7 +22,7 @@ Over the years, I've noticed that a few platforms started providing a yearly sum
 
 Last month I was poring over possible improvements or features that the **Apple Health Parser** could benefit from. And the first thing that came to mind was that the package didn't come with a convenient way to generate an annual summary of the most relevant health metrics - similar to what you see in the services I mentioned above. So I decided to build that feature myself, and in this blog post, I’ll walk through the thought process and bits of the implementation here and there.
 
-## Implementing the **Year Recap** feature
+## Implementing the Year Recap feature
 
 I decided to implement the year recap feature as a standalone script within the package. This way, it can be easily run from the command line and doesn't require any additional setup or configuration. The script takes in the Apple Health data, processes it, and generates a PDF report summarising the most relevant health metrics for the specified year. I'll go over the design and implementation of this feature in the following sections on a high level. If you're curious about the details, feel free to check the repository.
 
@@ -57,7 +57,7 @@ I'll skip the part of the code that parses the data since that has already been 
 
 #### Postprocessing the data for each metric
 
-Next, to postprocess the data for each metric, we need to define said metrics. This is done similarly to how the **Apple Health Parser** already handles flags metadata - using a YAML file. In this case, it falls under `apple_health_parser/scripts/recap/metrics/metrics.yaml`. As an example, for the `HKQuantityTypeIdentifierActiveEnergyBurned` flag, we have the following entry in the YAML file:
+Next, to postprocess the data for each metric, we need to define said metrics. This is done similarly to how the **Apple Health Parser** already handles flags metadata - using a YAML file. As an example, for the `HKQuantityTypeIdentifierActiveEnergyBurned` flag, we have the following entry in the YAML file:
 
 ```yaml [apple_health_parser/recap/metrics/metrics.yaml]
 HKQuantityTypeIdentifierActiveEnergyBurned:
@@ -72,7 +72,7 @@ HKQuantityTypeIdentifierActiveEnergyBurned:
   summary_template: Over the period, you burned a total of (...)
 ```
 
-Essentially, we have `n` top-level keys referring to a health metric which hold key-value pairs, one for each metadata field. I decided to go with dataclasses to hold this metadata. They are straightforward, readable, and have useful methods built-in. Note that I decorated the `MetricsDefinition` dataclass below with the `@dataclass(frozen=True)` decorator. This makes the dataclass an immutable object where attributes cannot be modified after initialisation.
+Essentially, we have $n$ top-level keys referring to a health metric which hold key-value pairs, one for each metadata field. I decided to go with dataclasses to hold this metadata. They are straightforward, readable, and have useful methods built-in. Note that I decorated the `MetricsDefinition` dataclass below with the `@dataclass(frozen=True)` decorator. This makes the dataclass an immutable object where attributes cannot be modified after initialisation.
 
 ```py [apple_health_parser/scripts/recap/metrics/definitions.py]
 @dataclass(frozen=True)
@@ -126,11 +126,11 @@ I'll skip the nitty-gritty of the implementation, but the general idea is that w
 
 #### Generating the plots
 
-The plots themselves still rely on `plotly`, as is the case for the rest of the package. But since these are customised to show data agglomerated by week, I had to implement some custom logic to get the data in the right format for plotting. This involved grouping the records by week and applying the specified operation to each group. For example, if we want to generate a plot for the `HKQuantityTypeIdentifierActiveEnergyBurned` metric, we would first group the records by week and then apply the `sum` operation to get the total active energy burned per week. And depending on the specified `plot_type` in the YAML file, we would generate either a bar plot or a line plot.
+The plots themselves still rely on `plotly`, as is the case for the rest of the package. But since these are customised to show data agglomerated per week, I had to implement some custom logic to get the data in the right format for plotting. This involved grouping the records by week and applying the specified operation to each group. For example, if we want to generate a plot for the `HKQuantityTypeIdentifierActiveEnergyBurned` metric, we would first group the records by week and then apply the `sum` operation to get the total active energy burned per week. And depending on the specified `plot_type` in the YAML file, we would generate either a bar plot or a line plot.
 
 ##### Bar plot
 
-A bar plot is a good way to visualise data that has been agglomerated by week. When dealing with summed data over a period of time, I instinctively think of bar plots as they provide a clear visual representation of the total values for each time period. In this case, a bar plot would effectively show the total active energy burned per week, making it easy to see how active you were per week throughout the year.
+A bar plot is a good way to visualise data that has been agglomerated per week. When dealing with summed data over a period of time, I instinctively think of bar plots as they provide a clear visual representation of the total values for each time period. In this case, a bar plot would effectively show the total active energy burned per week, making it easy to see how active you were per week throughout the year.
 
 <div>
   <figure class="figure svg">
@@ -211,6 +211,4 @@ Finally, once all the parts of the report have been generated, we can output the
 
 ## Outro
 
-Ideally, I'd like to make this report more customisable in the future, allowing users to choose which metrics they want to include in the report. Requests and issue reports are always welcome on the [GitHub repository](https://github.com/alxdrcirilo/apple-health-parser/).
-
-You can find the docs for the year recap feature [here](https://alxdrcirilo.dev/apple-health-parser/tutorial/scripts/#running-the-year-recap-script).
+Ideally, I'd like to make this report more customisable in the future, allowing users to choose which metrics they want to include in the report. Requests and issue reports are always welcome on the [GitHub repository](https://github.com/alxdrcirilo/apple-health-parser/). As docs for the year recap feature, you can find them [here](https://alxdrcirilo.dev/apple-health-parser/tutorial/scripts/#running-the-year-recap-script).
