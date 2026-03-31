@@ -194,7 +194,7 @@ sup > a {
 }
 
 .bio {
-  font-size: 95%;
+  font-size: 1.14rem;
   text-align: center;
   width: 80%;
 }
