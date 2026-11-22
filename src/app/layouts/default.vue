@@ -33,17 +33,6 @@
                     <Icon class="icon github-icon" name="fa6-brands:github" />
                   </a>
                   <a
-                    href="https://www.instagram.com/alxdrcirilo/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram profile"
-                  >
-                    <Icon
-                      class="icon instagram-icon"
-                      name="fa6-brands:instagram"
-                    />
-                  </a>
-                  <a
                     href="https://www.linkedin.com/in/alxdrcirilo/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -53,6 +42,14 @@
                       class="icon linkedin-icon"
                       name="fa6-brands:linkedin"
                     />
+                  </a>
+                  <a
+                    href="https://alxdrcirilo.dev/games"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Video game reviews"
+                  >
+                    <Icon class="icon game-icon" name="fa6-solid:gamepad" />
                   </a>
                 </div>
               </nav>
@@ -247,8 +244,8 @@ sup > a {
   padding: 0;
 }
 
-.instagram-icon:hover,
-.dark-mode .instagram-icon:hover {
+.game-icon:hover,
+.dark-mode .game-icon:hover {
   color: mediumvioletred;
 }
 
