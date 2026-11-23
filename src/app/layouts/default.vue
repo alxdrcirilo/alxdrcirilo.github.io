@@ -44,20 +44,6 @@
                     />
                   </a>
                   <a
-                    href="https://alxdrcirilo.dev/games"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Video game reviews"
-                  >
-                    <Icon class="icon game-icon" name="fa6-solid:gamepad" />
-                  </a>
-                </div>
-              </nav>
-
-              <!-- Utils -->
-              <nav aria-label="Utility links">
-                <div class="utils">
-                  <a
                     @click="switchTheme"
                     aria-label="Toggle theme"
                     role="button"
@@ -71,6 +57,28 @@
                       "
                     />
                   </a>
+                </div>
+              </nav>
+
+              <!-- Utils -->
+              <nav aria-label="Utility links">
+                <div class="utils">
+                  <a
+                    href="https://alxdrcirilo.dev/games"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Video game reviews"
+                  >
+                    <Icon class="icon game-icon" name="fa6-solid:gamepad" />
+                  </a>
+                  <a
+                    href="https://alxdrcirilo.dev/photos"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Photos"
+                  >
+                    <Icon class="icon util-icon" name="fa6-solid:camera" />
+                  </a>
                   <a
                     href="/cv.pdf"
                     aria-label="Curriculum vitae"
@@ -78,14 +86,6 @@
                     rel="noopener noreferrer"
                   >
                     <Icon class="icon util-icon" name="fa6-solid:file" />
-                  </a>
-                  <a
-                    href="/rss.xml"
-                    aria-label="RSS feed"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Icon class="icon util-icon" name="fa6-solid:rss" />
                   </a>
                 </div>
               </nav>
@@ -107,6 +107,9 @@
                   <NuxtLink to="/tags" aria-label="Browse by tags"
                     >Tags</NuxtLink
                   >
+                </li>
+                <li>
+                  <a href="/rss.xml" aria-label="RSS feed">RSS</a>
                 </li>
               </ul>
             </nav>
@@ -163,7 +166,12 @@ nav {
 }
 
 nav ul li a {
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+nav ul li:last-child {
+  margin-bottom: 0;
 }
 
 nav ul {

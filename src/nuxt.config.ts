@@ -33,7 +33,17 @@ export default defineNuxtConfig({
             default: "vitesse-light",
             "dark-mode": "vitesse-dark",
           },
-          langs: ["js", "json", "makefile", "py", "rs", "sh", "toml", "xml", "yaml"],
+          langs: [
+            "js",
+            "json",
+            "makefile",
+            "py",
+            "rs",
+            "sh",
+            "toml",
+            "xml",
+            "yaml",
+          ],
         },
         remarkPlugins: {
           "remark-math": {},

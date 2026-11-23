@@ -9,7 +9,8 @@
   <p>
     I plan to use this space to make occasional posts about the development of
     personal projects, interests,
-    <NuxtLink to="https://alxdrcirilo.dev/games"> video game reviews</NuxtLink>,
+    <NuxtLink to="https://alxdrcirilo.dev/games">video game reviews</NuxtLink>,
+    <NuxtLink to="https://alxdrcirilo.dev/photos">photos portfolio</NuxtLink>,
     and random things that strike my interest.
   </p>
   <div>
