@@ -25,6 +25,9 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-08-06",
   css: ["~/assets/css/main.css", "katex/dist/katex.min.css"],
   modules: ["@nuxt/content", "@nuxt/icon", "@nuxt/image", "@nuxtjs/color-mode"],
+  colorMode: {
+    preference: "light",
+  },
   content: {
     build: {
       markdown: {
